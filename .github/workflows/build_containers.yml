@@ -5,12 +5,7 @@ name: Build container image
 on:
   workflow_dispatch:
   push:
-    branches:
-      - '**'
-    paths:
-      - 'conf/**'
-    tags:
-      - '*'
+
 jobs:
   build:
     runs-on: ubuntu-latest
